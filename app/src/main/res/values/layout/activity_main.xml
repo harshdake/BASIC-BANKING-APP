@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/view_users"
+            android:layout_width="233dp"
+            android:layout_height="79dp"
+            android:background="@drawable/b1"
+            android:baselineAligned="false"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:text="@string/click_here_to_view_all_customers"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"></Button>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="418dp"
+            android:layout_height="296dp"
+            android:baselineAligned="false"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toTopOf="@+id/view_users"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/p1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

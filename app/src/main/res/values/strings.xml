@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobile Banking</string>
+    <string name="click_here_to_view_all_customers">Click here to view all Customers</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name :</string>
+    <string name="eamil_id">Eamil Id :</string>
+    <string name="select_a_user_to_transfer_money">Select a user to transfer money</string>
+    <string name="no_history">No history</string>
+</resources>
